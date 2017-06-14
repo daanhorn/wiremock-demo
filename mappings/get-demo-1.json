@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/api/demo\\?param1=123&param2=(.*)"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "../resources/demo-1.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
