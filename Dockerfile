@@ -2,7 +2,7 @@ FROM openjdk:8-alpine
 
 EXPOSE 9999
 
-ENV WIREMOCK_VERSION 2.5.1
+ENV WIREMOCK_VERSION 2.5.2
 
 RUN apk update && \
     apk --no-cache upgrade
